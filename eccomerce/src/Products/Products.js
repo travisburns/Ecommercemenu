@@ -1,6 +1,6 @@
 import React from 'react'
-import './Nav.css'
-const Nav = () => {
+
+const Products = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Products
