@@ -11,7 +11,7 @@ const Sidebar = () => {
    <>
     <section className='sidebar'>
       <div className='logo-container'>
-        <h1>&#128722</h1>
+      <h1>🛒</h1>
       </div>
       
     <Category />

@@ -1,4 +1,5 @@
 
+import Input from '../../components/Input'
 import './Category.css'
 
 
@@ -6,29 +7,14 @@ import './Category.css'
 const Category = () => {
   return (
     <div>
-      <h2 className='sidebar-title'></h2>
+      <h2 className='Category'></h2>
     <div>
-      <label htmlFor="" className="sidebar-label-container">
-        <input type='radio' name="test" />
-        <span className='checkmark'></span> All
-      </label>
-      <label htmlFor="" className="sidebar-label-container">
-        <input type='radio' name="test" />
-        <span className='checkmark'></span> Sneakers
-      </label>
-      <label htmlFor="" className="sidebar-label-container">
-        <input type='radio' name="test" />
-        <span className='checkmark'></span> Flats
-      </label>
-      <label htmlFor="" className="sidebar-label-container">
-        <input type='radio' name="test" />
-        <span className='checkmark'></span> Sandles
-      </label>
-      <label htmlFor="" className="sidebar-label-container">
-        <input type='radio' name="test" />
-        <span className='checkmark'></span> Heels
-      </label>
+     
     </div>
+    <Input />
+    <Input />
+    <Input />
+    <Input />
     
     </div>
   )
